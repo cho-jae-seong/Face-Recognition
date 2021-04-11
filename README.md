@@ -10,8 +10,11 @@ python api_usage/cam_util.py ->cam이 연결된 상태에서 실행 시 실시�
 원한다면 detect,alignment,crop,feature 의 과정을 따로 실행하여 결과물을 확인할 수 있습니다.
 
 -> python api_usage/face_detect.py  # Get bounding box of a face 
+
 -> python api_usage/face_alignment.py  # Get 106 landmark of a face 
+
 -> python api_usage/face_crop.py  # Get croped face from a image
+
 -> python api_usage/face_feature.py  # Get features of a face
 
 # Mask를 쓴 얼굴까지도....?
